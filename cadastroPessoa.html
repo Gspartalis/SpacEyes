@@ -1,0 +1,46 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <title>LGPD - Lei Geral de Proteção de Dados</title>
+    </head>
+    <body>
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <nav class="nav nav-masthead justify-content-left">
+            <a class="nav-link active" href="home.html">Home</a>
+            <a class="nav-link" href="mudancas.php">Tudo que mudou</a>
+            <a class="nav-link" href="contato.html">Dúvidas</a>
+            <a class="nav-link" id="login" href="login.html">Login</a>
+          </nav>
+        </div>
+      </header>
+      
+      <h3>Preencha o e-mail e senha para se cadastrar</h3>
+        <div class="container">
+        <form method="POST" action="adicionar_action.php">
+            <div class="form-group col-md-3">
+              <label for="Email">E-mail</label>
+              <input type="email"  name="email" class="form-control"  placeholder="Email...">
+              
+            </div>
+            <div class="form-group col-md-3">
+              <label for="senha">Senha</label>
+              <input type="password" name="senha" class="form-control"  placeholder="Senha...">
+            </div>
+            
+            <div class="col-md-3">
+              <button type="submit" class="btn btn-primary btn-block align-right">Enviar</button>
+            </div>
+
+          </form>
+        </div>
+      
+
+        <script type="text/javascript" src="assets/js/jquery-3-3.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

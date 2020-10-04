@@ -1,0 +1,56 @@
+body {
+ background-image: url(../images/bg-nasa.jpg);
+}
+
+
+h2, h1, h3, h4 {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+
+p {
+    color: white;
+    width: 400px;
+    margin-left: 30px;
+}
+
+label {
+    color: white;
+}
+
+button {
+    padding-top: 80px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    margin-top: 1px;
+    padding-top: 10px;
+}
+
+#login {
+   color:lightblue;
+}
+
+#login:hover {
+    color: lightgreen;
+ }
+
+ #qrCode {
+     margin-left: 70px;
+ }
+
+ .carrossel {
+     height: 50px;
+ }
+ 
